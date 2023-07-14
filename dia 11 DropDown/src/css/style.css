@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    padding-bottom: 1500px;
+}
+
+nav{
+    background-color: #333;
+
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    padding: 1rem 1rem;
+}
+nav ul a{
+    color: #fff;
+    text-decoration: none;
+    padding: 15px;
+}
+nav ul a:hover{
+    background-color: #222;
+}
+
+nav ul li:hover > ul{
+    display: block;
+}
+
+nav ul ul{
+    display: none;
+    position: absolute;
+    width: 100px;
+    top: 50px;
+    background-color: #444;
+    padding: 0;
+    font-size: 0.8rem;
+}
+nav ul ul li{
+    position: relative;
+}
+nav ul ul li a{
+    padding: 0.5rem;
+    display: block;
+}
+nav ul ul ul {
+    left: 100px;
+    background-color: #555;
+    top: 0;
+    
+}
+
+#topo{
+    display:none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #333;
+    padding: 0.5rem 1rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+#topo:hover{
+    background-color: #555;
+}
