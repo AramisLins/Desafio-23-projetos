@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+}
+h1{
+    text-align: center;
+    margin-top: 4rem;
+}
+
+#addTask{
+    margin-bottom: 1.5rem;
+    margin-left: 1.4rem;
+
+}
+#addTask input{
+    padding: 0.3rem;
+    margin-right: .5rem;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+#addTask button{
+    padding: 0.3rem 1rem;
+    background-color: #2196f3;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.organizacao{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1.5rem;
+}
+
+.coluna{
+    width: 30%;
+    background-color: #eee;
+    border-radius: 10px;
+    padding: 0.5rem;
+}
+.tasks{
+    list-style: none;
+    margin: 0;
+    padding: 1rem;
+    border: 2px dashed #ccc;
+    border-radius: 5px;
+    min-height: 100px;
+}
+
+.tasks li{
+    background-color: #fff;
+    padding: 0.8rem;
+    margin: .5rem 0;
+    border-radius: 5px;
+    cursor: move;
+}
+
+.tasks li.dragging {
+    opacity: 0.5;
+}
+
+.tasks li:hover{
+    background-color: #f5f5f5;
+}
+
+h2{
+    text-align: center;
+}
+

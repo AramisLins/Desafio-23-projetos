@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,500;1,300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="src/css/style.css">
+    <script src="src/js/script.js" defer></script>
+    <title>Aramis Tasks</title>
+</head>
+<body>
+    <h1>Aramis Tasks</h1>
+    <form id="addTask">
+        <p>Crie uma tarefa: </p>
+        <input type="text" placeholder="Digite o título :">
+        <button type="submit">Criar</button>
+    </form>
+    <div class="organizacao">
+        <div class="coluna">
+            <h2>Para fazer: </h2>
+            <ul class="tasks" id="todo">
+                
+            </ul>
+        </div>
+        <div class="coluna">
+            <h2>Fazendo </h2>
+            <ul class="tasks" id="doing">
+                
+            </ul>
+        </div>
+        <div class="coluna">
+            <h2>Prontas </h2>
+            <ul class="tasks" id="done">
+                
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
