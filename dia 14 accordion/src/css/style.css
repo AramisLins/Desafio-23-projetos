@@ -1,0 +1,49 @@
+body{
+    background-color: #f2f2f2;
+}
+
+h1{
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.accordion{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.accordion-item{
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    overflow: hidden;
+}
+
+.header{
+    padding: 1rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.conteudo{
+    padding: 0 0.6rem;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    transition: 0.3s;
+}
+.accordionAtivo .header{
+    background-color: #ddd;
+
+}
+
+.accordionAtivo .conteudo{
+    transition: 0.5s;
+    max-height: 1000px;
+}
+
+.accordionFechado .conteudo{
+    max-height: 0;
+    overflow: hidden;
+}
